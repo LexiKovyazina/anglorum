@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="angl.MainPage"  
+             Title="ANGLORUM"
+             
+             BarBackgroundColor="#D9ADCF">
+    
+    
+    <ContentPage IconImageSource="news.png">
+
+
+      <ScrollView>
+        <StackLayout >
+            
+            <Frame HasShadow="True"
+                   CornerRadius="40"
+                   Margin="20,20,20,0" 
+                   HeightRequest="160" Padding="0">
+                
+            <Button ImageSource="first.png"
+                    HeightRequest="160"
+                    CornerRadius="40" 
+                    VerticalOptions="Center"
+                    Clicked="firs"/>
+                
+            </Frame>
+
+            
+            
+            <Frame HasShadow="True"
+                   CornerRadius="40"
+                   Margin="20,20,20,0" 
+                   HeightRequest="160" Padding="0">
+                
+                <Button ImageSource="second.png"
+                    HeightRequest="160"
+                    CornerRadius="40" 
+                    VerticalOptions="Center"
+                    Clicked="secon"/>
+                
+            </Frame>
+            
+            
+
+            <Frame HasShadow="True"
+                   CornerRadius="40"
+                   Margin="20,20,20,0" 
+                   HeightRequest="160" Padding="0"
+                   
+                   >
+                <Button ImageSource="third.png"
+                    HeightRequest="160"
+                    CornerRadius="40" 
+                    VerticalOptions="Center"
+                    Clicked="thir"/>
+            </Frame>
+
+            
+            
+            <Frame HasShadow="True"
+                   CornerRadius="40"
+                   Margin="20,20,20,0" 
+                   HeightRequest="160" Padding="0"
+                   
+                   >
+                <Button ImageSource="forth.png"
+                    HeightRequest="160"
+                    CornerRadius="40" 
+                    VerticalOptions="Center"
+                    Clicked="fort"/>
+            </Frame>
+
+            
+            
+            <Frame HasShadow="True"
+                   CornerRadius="40"
+                   Margin="20,20,20,0" 
+                   HeightRequest="160" Padding="0"
+                   
+                   >
+                <Button ImageSource="fifth.png"
+                    HeightRequest="160"
+                    CornerRadius="40" 
+                    VerticalOptions="Center"
+                    Clicked="fift"/>
+            </Frame>
+            
+            
+
+                <Frame HasShadow="True"
+                   CornerRadius="40"
+                   Margin="20,20,20,0" 
+                   HeightRequest="160" Padding="0"
+                   
+                   >
+                    <Button ImageSource="sixth.png"
+                    HeightRequest="160"
+                    CornerRadius="40" 
+                    VerticalOptions="Center"
+                    Clicked="sixt"/>
+                </Frame>
+            
+            </StackLayout>
+          </ScrollView>
+
+    </ContentPage>
+
+
+    <ContentPage 
+                 xmlns="http://xamarin.com/schemas/2014/forms"  
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
+                 xmlns:d="http://xamarin.com/schemas/2014/forms/design"  
+                 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                   
+                 xmlns:controls="clr-namespace:XamForms.Controls;assembly=XamForms.Controls.Calendar"
+                 IconImageSource="calendar.png">
+
+        <StackLayout>
+
+            <Frame HasShadow="True"
+                   CornerRadius="30"
+                   Margin="20,30,20,30" 
+                    Padding="0"
+                   HorizontalOptions="FillAndExpand" 
+                   >
+                <Button Text=" My Goals"
+                    BackgroundColor="#D9ADCF"
+                    TextColor="Black"
+                    CornerRadius="30"
+                    Clicked="goal"/>
+            </Frame>
+
+            <controls:Calendar Padding="10,0,10,0"   
+                           SelectedBorderWidth="0"   
+                           DisabledBorderColor="#000000"  
+                           ShowNumberOfWeek="false"  
+                           StartDay="Monday"  
+                           TitleLabelTextColor="Black"  
+                           TitleLeftArrowTextColor="Black" 
+                           TitleRightArrowTextColor="Black"
+                           SelectedDate="{Binding Date}"  
+                           SpecialDates="{Binding Attendances}"  
+                           DateCommand="{Binding DateChosen}"
+                           BorderColor="#00000000"/>
+        </StackLayout>
+
+    </ContentPage>
+    
+    <ContentPage IconImageSource="i.png">
+
+        <StackLayout HorizontalOptions="Center"
+                     VerticalOptions="Center">
+
+            <Label Text="Coming soon "
+                   FontSize="50"
+                   FontFamily="Caribien"
+                   TextColor="Gray"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand"/>
+
+        </StackLayout>
+        
+    </ContentPage>
+    
+    <ContentPage IconImageSource="save.png">
+
+        <StackLayout>
+            <Frame HasShadow="True"
+                   CornerRadius="40"
+                   Margin="20,20,20,0" 
+                   HeightRequest="160" Padding="0">
+
+                <Button ImageSource="second.png"
+                    HeightRequest="160"
+                    CornerRadius="40" 
+                    VerticalOptions="Center"
+                    Clicked="secon"/>
+
+            </Frame>
+            
+            <Frame HasShadow="True"
+                   CornerRadius="40"
+                   Margin="20,20,20,0" 
+                   HeightRequest="160" Padding="0"
+                   
+                   >
+            <Button ImageSource="sixth.png"
+                    HeightRequest="160"
+                    CornerRadius="40" 
+                    VerticalOptions="Center"
+                    Clicked="sixt"/>
+            </Frame>
+
+        </StackLayout>
+
+    </ContentPage>
+</TabbedPage>

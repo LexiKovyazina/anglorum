@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="angl.first"
+             Title="Best Articles: Over 100 Interesting Articles to Read">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame Padding="0" Margin="20,40,20,10">
+                <Image  Source ="imfi.png"
+                    />
+            </Frame>
+            <Label x:Name="label"
+                   Text="https://jamesclear.com/article"
+                   HorizontalOptions="Center"
+                   Margin="30,20,30,0"/>
+
+            <Label Text="This page shares my best articles to read on topics like health, happiness, creativity, productivity and more. The central question that drives my work is, ''How can we live better?'' To answer that question, I like to write about science-based ways to solve practical problems."
+                   VerticalOptions="Fill" 
+                   HorizontalOptions="CenterAndExpand"
+                   FontFamily="SF Compact Text"
+                   Margin="30,50,30,0"
+                   FontSize="20"/>
+            <Label Text=" You'll find interesting articles to read on topics like how to stop procrastinating as well as personal recommendations like my list of the best books to read and my minimalist travel guide. Ready to dive in? You can use the categories below to browse my best articles or scroll down to see every post by date and title."
+                   VerticalOptions="Fill" 
+                   HorizontalOptions="CenterAndExpand"
+                   FontFamily="SF Compact Text"
+                   Margin="30,10,30,0"
+                   FontSize="20"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

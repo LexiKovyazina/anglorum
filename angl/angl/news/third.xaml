@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="angl.third"
+             Title="Lesson | Small Talk  Conversational Vocabulary">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame Padding="0" Margin="20,40,20,10">
+                <Image  Source ="imth.png"
+                    />
+            </Frame>
+            <Label x:Name="th"
+                   Text="https://www.coursera.org/learn/lesson-small-talk-and-conversational-vocabulary"
+                   HorizontalOptions="Center"
+                   Margin="30,20,30,0"/>
+
+            <Label Text="This lesson is part of a full course, Speak English Professionally: In Person, Online and On the Phone. Take this lesson to get a short tutorial on the learning objectives covered. To dive deeper into this topic, take the full course. "
+                   VerticalOptions="Fill" 
+                   HorizontalOptions="CenterAndExpand"
+                   FontFamily="SF Compact Text"
+                   Margin="30,50,30,0"
+                   FontSize="20"/>
+            <Label Text=" In this lesson, you will review professional conversational vocabulary."
+                   VerticalOptions="Fill" 
+                   HorizontalOptions="CenterAndExpand"
+                   FontFamily="SF Compact Text"
+                   Margin="30,10,30,0"
+                   FontSize="20"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

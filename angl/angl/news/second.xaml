@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="angl.second"
+             Title="Adapt VS Adopt">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame Padding="0" Margin="20,40,20,10">
+                <Image  Source ="imse.png"
+                    />
+            </Frame>
+            <Label x:Name="label" Text="https://www.really-learn-english.com/adapt-vs-adopt.html"
+                   HorizontalOptions="Center"
+                   Margin="30,20,30,0"/>
+
+            <Label Text="Many students confuse the words adapt and adopt. How do you know when to use each one?" 
+                   VerticalOptions="Fill" 
+                   HorizontalOptions="CenterAndExpand"
+                   FontFamily="SF Compact Text"
+                   Margin="30,50,30,0"
+                   FontSize="20"/>
+
+            <Label Text=" Both words are verbs, and there are only small differences in their spellings and pronunciations. But be careful, because the meanings of the two words are very different. Knowing when to use each one is important, because otherwise you might suggest making a change when what you mean is that you want to accept something the way it already is!"
+                   VerticalOptions="Fill" 
+                   HorizontalOptions="CenterAndExpand"
+                   FontFamily="SF Compact Text"
+                   Margin="30,10,30,0"
+                   FontSize="20"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

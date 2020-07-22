@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="angl.fifth"
+             Title="How women will lead us to freedom">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame Padding="0" Margin="20,40,20,10">
+                <Image  Source ="imfif.png"
+                    />
+            </Frame>
+            <Label x:Name="label"
+                   Text="https://www.youtube.com/watch?v=-uR-iqh1x1Q"
+                   HorizontalOptions="Center"
+                   Margin="30,20,30,0"/>
+
+            <Label Text="''I was the first woman president of an African nation, and I do believe more countries ought to try that,'' says H.E. Ellen Johnson Sirleaf, Nobel laureate and former president of Liberia. Telling the story of how Liberian women helped rebuild their country after years of civil war, Sirleaf discusses why gender equality is essential to peace and prosperity -- and shares her plan to uplift a generation of women prepared to take leadership positions and catalyze social change."
+                   VerticalOptions="Fill" 
+                   HorizontalOptions="CenterAndExpand"
+                   FontFamily="SF Compact Text"
+                   Margin="30,80,30,0"
+                   FontSize="20"/>
+           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

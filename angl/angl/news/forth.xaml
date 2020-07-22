@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="angl.forth"
+             Title="How can you lead more fulfilled live">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame Padding="0" Margin="20,40,20,10">
+                <Image  Source ="imfo.png"
+                    />
+            </Frame>
+            <Label x:Name="label"
+                   Text="https://www.theschooloflife.com/london/"
+                   HorizontalOptions="Center"
+                   Margin="30,20,30,0"/>
+
+            <Label Text="The School of Life is an educational company that offers advice on life issues. It was founded by a number of intellectuals including Alain de Botton in 2008 and has branches in London (headquarters), Antwerp, Amsterdam, Berlin, Istanbul, Mexico City, Paris and São Paulo Seoul, Taipei and Tel Aviv. "
+                   VerticalOptions="Fill" 
+                   HorizontalOptions="CenterAndExpand"
+                   FontFamily="SF Compact Text"
+                   Margin="30,50,30,0"
+                   FontSize="20"/>
+            <Label Text="The School offers a variety of programmes and services covering finding fulfilling work, mastering relationships, achieving calm, and understanding and changing the world."
+                   VerticalOptions="Fill" 
+                   HorizontalOptions="CenterAndExpand"
+                   FontFamily="SF Compact Text"
+                   Margin="30,10,30,0"
+                   FontSize="20"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
